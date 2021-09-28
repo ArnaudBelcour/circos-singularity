@@ -41,9 +41,9 @@ From: ubuntu:18.04
     Params::Validate \
     Statistics::Basic ;\
 
-	cd /opt ;\
+    cd /opt ;\
     wget http://circos.ca/distribution/circos-0.69-6.tgz ;\
     tar -xvf circos-0.69-6.tgz ;\
     rm circos-0.69-6.tgz
-	cd /opt/circos-0.69-6/bin ;\
-	chmod u+x *
+    cd /opt/circos-0.69-6/bin ;\
+    chmod u+x *
